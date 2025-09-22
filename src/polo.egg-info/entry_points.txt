@@ -1,0 +1,2 @@
+[console_scripts]
+polo = polo.cli:main

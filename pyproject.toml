@@ -1,0 +1,20 @@
+[project]
+name = "polo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.66.0",
+    "black>=25.1.0",
+    "flake8>=7.3.0",
+    "google-generativeai>=0.8.5",
+    "jieba>=0.42.1",
+    "openai>=1.106.1",
+    "psutil>=7.0.0",
+    "pytest>=8.4.2",
+    "python-dotenv>=1.1.1",
+]
+
+[project.scripts]
+polo = "polo.cli:main"
